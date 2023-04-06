@@ -1,0 +1,49 @@
+* { box-sizing: border-box;
+    /* se coloca aqui arriba y el asteris significa que es para todo el css */
+}
+
+body {
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor0{
+    width: 90%; 
+    padding: 40px;
+    border: solid 5px black;
+    margin: auto;
+    background-color: #13c03f;
+}
+
+@media (min-width: 570px) {
+    .contenedor0{
+        border: solid 5px rgb(231, 63, 12);
+        background-color: #6a0ce4;
+    }
+
+}
+
+@media (min-width: 900px) {
+    .contenedor0{
+        color:  red;
+    }
+
+}
+
+.contenedor1{
+    width: 90%; /* se pone solo width y con % no con px */
+    /* lo mejor es usar 100% y  box-sizing: border-box*/
+   /*  box-sizing: border-box; */
+    padding: 40px;
+    border: solid black;
+    
+    background-color: bisque;
+}
+
+.contenedor2{
+    width: 90vw;
+    /* height: 200px; si se usa width con % o wv no es necesario el height*/
+    background-color: yellowgreen;
+    border: solid red;
+    padding: 40px;
+}

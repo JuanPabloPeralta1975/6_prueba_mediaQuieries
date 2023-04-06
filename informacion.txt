@@ -1,0 +1,7 @@
+1. en app.js se utiliza express.static para que la carpeta public se pueda usar desde otros arhcivos
+por eso en index.html no es necesario escribir toda la ruta, y solo es necesario
+escribir /images/Leia.png
+no es necsario escribir ./public/images/Leia.png
+
+2. CSS es necesario usar la etiqueta link "en mi carpeta index.html" con 
+<link rel="stylesheet" href="/css/styles.css">
